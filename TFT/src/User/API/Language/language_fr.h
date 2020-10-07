@@ -195,5 +195,6 @@
 	#define FR_LASER_2					"Laser 2%"
 	#define FR_LASER_100				"Laser 100%"
 	#define FR_LASER_OFF				"Laser Off"
+    #define FR_PROBE_Z                  "Probe Z"
 
 #endif
