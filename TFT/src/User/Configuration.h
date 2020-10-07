@@ -177,9 +177,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 900 // LOK mod MPCNC Size
-#define Y_MAX_POS 1200 // LOK mod MPCNC Size
-#define Z_MAX_POS 110 // LOK mod MPCNC Size
+#define X_MAX_POS 738 // LOK mod MPCNC Size
+#define Y_MAX_POS 1022 // LOK mod MPCNC Size
+#define Z_MAX_POS 250 // LOK mod MPCNC Size
 
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 15   // (mm)
