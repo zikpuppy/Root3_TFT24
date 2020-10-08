@@ -40,7 +40,12 @@ void menuHome(void)
     	#ifdef CNC_MENU //if CNC menu is selected
         case KEY_ICON_0: storeCmd("G28 XY\n");   break;
         case KEY_ICON_1: storeCmd("G28 Z\n"); break;
-        case KEY_ICON_3: storeCmd("G38.2 X-20\n G92 z8.19\n"); break;
+        case KEY_ICON_3:
+          // storeCmd("G92 Z0\n");
+          // storeCmd("G21;"); 
+          storeCmd("G38.2 Z-50 F50\n"); 
+          storeCmd("G92 Z8.19\n"); 
+          storeCmd("G0 Z33 F300\n"); break;
         case KEY_ICON_4: storeCmd("G92 X0\n"); break;
         case KEY_ICON_5: storeCmd("G92 Y0\n"); break;
         case KEY_ICON_6: storeCmd("G92 Z0\n"); break;
