@@ -44,8 +44,8 @@ void menuHome(void)
           // storeCmd("G92 Z0\n");
           // storeCmd("G21;"); 
           storeCmd("G38.2 Z-50 F50\n"); 
-          storeCmd("G92 Z8.19\n"); 
-          storeCmd("G0 Z33 F300\n"); break;
+          storeCmd("G92 Z8.15\n"); 
+          storeCmd("G0 Z25 F300\n"); break;
         case KEY_ICON_4: storeCmd("G92 X0\n"); break;
         case KEY_ICON_5: storeCmd("G92 Y0\n"); break;
         case KEY_ICON_6: storeCmd("G92 Z0\n"); break;
