@@ -195,5 +195,6 @@
 	#define RU_LASER_2					"Laser 2%"
 	#define RU_LASER_100				"Laser 100%"
 	#define RU_LASER_OFF				"Laser Off"
+    #define RU_PROBE_Z                  "Probe Z"
 
 #endif

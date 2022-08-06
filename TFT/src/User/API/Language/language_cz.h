@@ -195,5 +195,6 @@
 	#define CZ_LASER_2					"Laser 2%"
 	#define CZ_LASER_100				"Laser 100%"
 	#define CZ_LASER_OFF				"Laser Off"
+    #define CZ_PROBE_Z                  "Probe Z"
 
 #endif
